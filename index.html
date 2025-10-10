@@ -1,0 +1,268 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InsightData Analytics | Analyse de Données & IA</title>
+  <style>
+    /* ---------- STYLE GLOBAL ---------- */
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #0d1b2a;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #cfd8e3;
+    }
+    nav {
+      background-color: #1b263b;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 15px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #00aaff;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #0d1b2a;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    /* ---------- BIO ---------- */
+    .bio {
+      text-align: center;
+      line-height: 1.6;
+    }
+    /* ---------- SERVICES ---------- */
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+      text-align: center;
+    }
+    .service {
+      background-color: #f6f6f6;
+      border-radius: 10px;
+      padding: 25px;
+      transition: 0.3s;
+    }
+    .service:hover {
+      background-color: #e8f1f9;
+      transform: translateY(-5px);
+    }
+    /* ---------- PORTFOLIO ---------- */
+    .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .project {
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      background: #fff;
+      transition: 0.3s;
+    }
+    .project:hover {
+      transform: scale(1.03);
+    }
+    .project img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+    .project p {
+      padding: 15px;
+    }
+    /* ---------- TÉMOIGNAGES ---------- */
+    .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .testimonial {
+      background: #f6f6f6;
+      border-left: 5px solid #00aaff;
+      padding: 20px;
+      border-radius: 8px;
+      font-style: italic;
+    }
+    /* ---------- CONTACT ---------- */
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 600px;
+      margin: auto;
+    }
+    input, textarea, button {
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-family: inherit;
+    }
+    button {
+      background-color: #0d1b2a;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #00aaff;
+    }
+    footer {
+      background-color: #1b263b;
+      color: white;
+      text-align: center;
+      padding: 25px 10px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>InsightData Analytics</h1>
+    <p>Transformez vos données en décisions stratégiques</p>
+  </header>
+
+  <nav>
+    <a href="#bio">À propos</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#temoignages">Témoignages</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="bio">
+    <h2>À propos</h2>
+    <p class="bio">
+      Je suis un statisticien passionné par la donnée, spécialisé dans l’analyse, la visualisation et les modèles d’intelligence artificielle.
+      Avec plusieurs années d’expérience, j’aide entreprises et chercheurs à donner du sens à leurs données grâce à des solutions modernes et fiables.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Analyse de données</h3>
+        <p>Traitement et exploration approfondie des données pour en tirer des insights pertinents.</p>
+      </div>
+      <div class="service">
+        <h3>Visualisation</h3>
+        <p>Création de tableaux de bord et graphiques interactifs clairs et esthétiques.</p>
+      </div>
+      <div class="service">
+        <h3>Modélisation prédictive</h3>
+        <p>Utilisation de modèles statistiques et d’IA pour anticiper les tendances et comportements futurs.</p>
+      </div>
+      <div class="service">
+        <h3>Conseil en IA</h3>
+        <p>Accompagnement stratégique pour intégrer l’intelligence artificielle dans vos processus métier.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+      <div class="project">
+        <img src="https://source.unsplash.com/600x400/?data,chart" alt="Projet 1">
+        <p>Analyse de performances marketing pour une entreprise e-commerce.</p>
+      </div>
+      <div class="project">
+        <img src="https://source.unsplash.com/600x400/?ai,code" alt="Projet 2">
+        <p>Modèle prédictif de détection de fraude basé sur le machine learning.</p>
+      </div>
+      <div class="project">
+        <img src="https://source.unsplash.com/600x400/?dashboard,analytics" alt="Projet 3">
+        <p>Création d’un tableau de bord interactif pour le suivi d’indicateurs financiers.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="temoignages">
+    <h2>Témoignages</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        “Grâce à InsightData Analytics, nous avons enfin compris nos données clients et optimisé nos campagnes.”
+        <br><br><strong>– Sophie L., Directrice Marketing</strong>
+      </div>
+      <div class="testimonial">
+        “Une expertise remarquable en modélisation prédictive, livrée dans les délais et avec pédagogie.”
+        <br><br><strong>– Dr. Karim B., Chercheur</strong>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Votre nom" required>
+      <input type="email" placeholder="Votre email" required>
+      <textarea rows="5" placeholder="Votre message..." required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 InsightData Analytics — Tous droits réservés
+  </footer>
+
+</body>
+</html>
+
+
+---
+
+🚀 Comment le mettre en ligne
+
+1. Copie le code ci-dessus dans un fichier appelé index.html.
+
+
+2. Héberge-le gratuitement sur :
+
+GitHub Pages
+
+Netlify
+
+Vercel
+
+
+
+3. Tu auras un site web professionnel responsive et prêt à être partagé.
+
+
+
+
+---
+
+Souhaites-tu que je t’ajoute aussi un logo simple et professionnel (format SVG ou texte stylisé) pour compléter le site ?
+
