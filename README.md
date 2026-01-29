@@ -55,7 +55,7 @@ Each row corresponds to a customer.
 
 These observations justify the use of clustering techniques.
 
- 🔍 Clustering Results
+  Clustering Results
  Optimal Number of Clusters
 
 k = 3 selected based on the Elbow Method
@@ -68,7 +68,7 @@ k = 3 selected based on the Elbow Method
 * Balanced and moderate spending across all categories
 * Represents stable and predictable demand
 
-# 🔹 Cluster 1 – Fresh & Frozen Intensive Consumers
+#  Cluster 1 – Fresh & Frozen Intensive Consumers
 
 * Very high consumption of Fresh and Frozen products
 * High spending on Delicassen
@@ -76,13 +76,13 @@ k = 3 selected based on the Elbow Method
 
 ➡️ Strategic segment for managing perishable inventory
 
-# 🔹 Cluster 2 – Grocery & Detergents Intensive Consumers
+#  Cluster 2 – Grocery & Detergents Intensive Consumers
 
 * Extremely high consumption of Milk, Grocery, and Detergents_Paper
 * High-volume, fast-rotation demand
 * Likely retailers or resellers
 
-➡️ Critical segment for **bulk stock planning and logistics**
+Critical segment for bulk stock planning and logistics
 
 ## Objective Achievement Assessment
 
